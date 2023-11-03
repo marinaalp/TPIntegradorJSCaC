@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/fae5ac15d7.js" crossorigin="anonymous"></script>
+  <title>Conf Bs As</title>
+  <!-- favicon -->
+  <link type="image/png" rel="icon" href="./imagenes_integrador_front/codoacodo.png">
+</head>
+
+<body>
+  <header>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-sm fixed-top bg-body-tertiary" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./imagenes_integrador_front/codoacodo.png" alt="Codo a Codo" width="60" height="50"
+            class="d-inline-block align-text-top">Conf Bs As</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">La conferencia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Los oradores</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">El lugar y la fecha</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Conviértete en orador</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Los oradores</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: green;" href="tickets.html" target="_blank">Comprar tickets</a>
+            </li>
+
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section>
+
+      <div class="bg-image p-5 text-center shadow-1-strong rounded mb-5 text-white">
+        <h1 class="mb-3 h2">Conf Bs As</h1>
+
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus praesentium
+          labore accusamus sequi, voluptate debitis tenetur in deleniti possimus modi voluptatum
+          neque maiores dolorem unde? Aut dolorum quod excepturi fugit.
+        </p>
+
+        <a type="button" class="btn btn-success" href="tickets.html" target="_blank">Comprar Tickets</button>
+        <a type="button" class="btn btn-dark" id="orador">Quiero ser orador</button>
+      </div>
+
+    </section>
+
+    <section>
+      <h4 class="text-center">CONOCE A LOS</h4>
+      <h1 class="text-center">ORADORES</h1>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="./imagenes_integrador_front/ada.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <span class="badge text-bg-secondary">Negocios</span>
+              <span class="badge text-bg-danger">Starups</span>
+              <h5 class="card-title">Ada Lovelace</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./imagenes_integrador_front/bill.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <span class="badge text-bg-warning">JavaScript</span>
+              <span class="badge text-bg-info">React</span>
+              <h5 class="card-title">Bill Gates</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./imagenes_integrador_front/steve.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <span class="badge text-bg-warning">JavaScript</span>
+              <span class="badge text-bg-info">React</span>
+              <h5 class="card-title">Steve Jobs</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This card has even longer content than the first to show that equal height action.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 mt-3">
+            <div class="card">
+              <div class="card-horizontal">
+                <div class="img-square-wrapper">
+                  <img class="" src="./imagenes_integrador_front/honolulu.jpg" height="300px" alt="Card image cap">
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title">Bs As Octubre</h4>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui voluptatibus at
+                    iusto nisi placeat laborum quae sint deserunt, totam quo? Iste commodi dolor, tenetur ab voluptate
+                    excepturi? Quae, maxime quaerat? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+                    tempora quisquam, veritatis, similique fugiat quis voluptatibus ut corporis cum ipsa ab consequatur
+                    consectetur nobis eaque aliquid! Saepe modi vel cum!</p>
+                </div>
+              </div>
+              <div class="card-footer">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="formulario_charla">
+      <h3 class="text-center">
+        CONVIÉRTETE EN UN
+      </h3>
+      <h1 class="text-center">
+        ORADOR
+      </h1>
+      <p class="text-center">
+        Anótate como orador para dar una <a href="#" class="text-reset">charla ignite</a>. Cuentanos de que quieres
+        hablar
+      </p>
+      <form class="formulario">
+        <div class="row g-3">
+          <div class="col-sm-6">
+            <label for="firstName" class="form-label">Nombre: *</label>
+            <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+            <div class="invalid-feedback">
+              Debe ingresar un nombre
+            </div>
+          </div>
+
+          <div class="col-sm-6">
+            <label for="lastName" class="form-label">Apellido: *</label>
+            <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+            <div class="invalid-feedback">
+              Debe ingresar un apellido
+            </div>
+          </div>
+          <div class="col-12">
+            <label for="InputEmail1" class="form-label">Email: *</label>
+            <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" required>
+            <div id="emailHelp" class="form-text">La información del formulario es privada, no compartiremos tu email
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">¿Sobre que quieres hablar?</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <div id="textareaHelp" class="form-text">Recuerda incluir un titulo para tu charla</div>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-success"">Submit</button>
+  </form>
+</section>
+    
+    </main>
+  
+          </footer> -->
+          <footer class="text-center text-white" style="background-color: #3f51b5">
+            <!-- Grid container -->
+            <div class="container">
+              <!-- Section: Links -->
+              <section class="mt-5">
+                <!-- Grid row-->
+                <div class="row text-center d-flex justify-content-center pt-5">
+                  <!-- Grid column -->
+                  <div class="col-md-2">
+                    <h6 class="text-uppercase font-weight-bold">
+                      <a href="#!" class="text-white">Preguntas Frecuentes</a>
+                    </h6>
+                  </div>
+                  <!-- Grid column -->
+        
+                  <!-- Grid column -->
+                  <div class="col-md-2">
+                    <h6 class="text-uppercase font-weight-bold">
+                      <a href="#!" class="text-white">Contáctanos</a>
+                    </h6>
+                  </div>
+                  <!-- Grid column -->
+        
+                  <!-- Grid column -->
+                  <div class="col-md-2">
+                    <h6 class="text-uppercase font-weight-bold">
+                      <a href="#!" class="text-white">Prensa</a>
+                    </h6>
+                  </div>
+                  <!-- Grid column -->
+        
+                  <!-- Grid column -->
+                  <div class="col-md-2">
+                    <h6 class="text-uppercase font-weight-bold">
+                      <a href="#!" class="text-white">Conferencia</a>
+                    </h6>
+                  </div>
+                  <!-- Grid column -->
+        
+                  <!-- Grid column -->
+                  <div class="col-md-2">
+                    <h6 class="text-uppercase font-weight-bold">
+                      <a href="#!" class="text-white">Terminos y condiciones</a>
+                    </h6>
+                  </div>
+                
+                  </div>
+                  <!-- Grid column -->
+                </div>
+                <!-- Grid row-->
+              </section>
+              <!-- Section: Links -->
+        
+              <hr class="my-5" />
+        
+        
+              <!-- Section: Social -->
+              <section class="text-center mb-4">
+                <a href="https://www.facebook.com" class="text-white me-4">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://www.google.com" class="text-white me-4">
+                  <i class="fab fa-google"></i>
+                </a>
+                <a href="https://www.instagram.com" class="text-white me-4">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="" class="text-white me-4">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="" class="text-white me-4">
+                  <i class="fab fa-github"></i>
+                </a>
+              </section>
+              
+            </div>
+    
+            <div
+                 class="text-center p-3"
+                 style="background-color: rgba(0, 0, 0, 0.2)"
+                 >
+              © 2023 Copyright:
+              <a class="text-white" href="https://aulasvirtuales.bue.edu.ar/"
+                 >Codo a Codo</a
+                >
+            </div>
+      
+          </footer>
+          
+</body>
+
+</html>
