@@ -1,0 +1,11 @@
+id_orador,nombre,apellido,mail,tema,fecha_alta
+1,ana,perez,a_p@mimail.com,medioambiente,2023-11-19
+2,belen,gutierrez,b_g@mimail.com,"calentamiento global",0000-00-00
+3,carolina,lopez,c_l@mimail.com,"influencia del hombre",2023-11-19
+4,diego,lopez,d_l@mimail.com,"siglo xx",2023-09-17
+5,estefania,gonzalez,e_g@mimail.com,"geografia regional",2023-09-05
+6,fernanda,urrutia,f_u@mimail.com,macroeconomia,2023-11-03
+7,guillermo,sandoval,g_s@mimail.com,"salud y adolescencia",2023-11-06
+8,hernan,palomiro,h_p@mimail.com,"esclavitud siglo XVII",2023-11-07
+9,ingrid,rauch,i_r@mimail.com,"biologia marina",2023-10-07
+10,jaime,arancilla,j_a@mimail.com,sanitizacion,2023-10-09
